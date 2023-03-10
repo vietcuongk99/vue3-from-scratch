@@ -1,0 +1,27 @@
+{
+  "name": "vue3-from-scratch",
+  "version": "1.0.0",
+  "description": "vue3 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack --mode production --progress --hide-modules"
+  },
+  "author": "cuongdv",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.36",
+    "vue-loader": "^17.0.1",
+    "vue-style-loader": "^4.1.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.76.0"
+  }
+}
